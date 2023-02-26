@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import db from "./assets/firebase";
 import AppHeader from "./components/header";
 import UploadModal from "./components/upload";
-import { collection, getCount } from "firebase/firestore/lite";
 import SearchByStateModal from "./components/search-by-state";
+import supabase from "./assets/supabase";
 
 const App = () => {
   const [showUpload, setShowUpload] = useState(false);
@@ -15,10 +14,8 @@ const App = () => {
   }, []);
 
   const countWards = async () => {
-    const coll = collection(db, "wards");
-    const snapshot = await getCount(coll);
-
-    return setDataCount(snapshot.data().count);
+    const { count } = await supabase.from("wards").select("*", { count: "exact", head: true });
+    setDataCount(count ?? 0);
   };
 
   if (!(window as any).cloudinary) {

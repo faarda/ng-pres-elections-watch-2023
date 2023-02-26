@@ -1,12 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocation } from "react-router-dom";
 import AppHeader from "./components/header";
-import { collection, getDocs, query, where } from "firebase/firestore/lite";
-import db from "./assets/firebase";
 import states from "./assets/json/states.json";
 import UploadModal from "./components/upload";
-// import lgas from "./assets/json/lgas.json";
-
+import supabase from "./assets/supabase";
 interface Data {
   ward_code: string;
   images: string[];
@@ -30,24 +27,16 @@ const SearchPage = () => {
     return states.find((s) => s.state_id === Number(state))?.name;
   }, [state]);
 
-  // const lgaName = useMemo(() => {
-  //   return lgas.find((l) => l.lga_id === Number(lga))?.name;
-  // }, [lga]);
-
   useEffect(() => {
     getResults();
   });
 
   const getResults = async () => {
-    const q = query(collection(db, "wards"), where("ward_code", "==", `${state}-${lga}-${ward}`));
+    const { data, error } = await supabase.from("wards").select().eq("ward_code", `${state}-${lga}-${ward}`);
 
-    const querySnapshot = await getDocs(q);
-    const results: Data[] = [];
-    querySnapshot.forEach((doc) => {
-      results.push(doc.data() as Data);
-    });
+    if (error) return;
 
-    setResults(results);
+    setResults(data as Data[]);
   };
 
   return (

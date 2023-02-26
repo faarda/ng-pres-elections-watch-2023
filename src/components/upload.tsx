@@ -4,8 +4,7 @@ import states from "../assets/json/states.json";
 import lgas from "../assets/json/lgas.json";
 import wards from "../assets/json/wards.json";
 import Modal from "./modal";
-import db from "../assets/firebase";
-import { addDoc, collection } from "firebase/firestore/lite";
+import supabase from "../assets/supabase";
 
 interface Props {
   show: boolean;
@@ -23,25 +22,22 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
     onSubmit: async (values) => {
       const { lga, ward, state } = values;
 
-      try {
-        const wardsCollection = collection(db, "wards");
-        await addDoc(wardsCollection, {
-          ward_code: `${state}-${lga}-${ward}`,
-          images,
-          state,
-          ward,
-          lga,
-        });
+      const { error } = await supabase.from("wards").insert({
+        ward_code: `${state}-${lga}-${ward}`,
+        images,
+        state,
+        ward,
+        lga,
+      });
 
+      if (error) {
+        alert(`Something went wrong please try again`);
+      } else {
         alert(`Ward ${ward} Successfully uploaded`);
         toggle(false);
         form.resetForm();
         setImages([]);
-      } catch (err) {
-        alert(`Something went wrong please try again`);
       }
-      // navigate(`/search?state=${state}&lga=${lga}&ward=${ward}`);
-      // form.resetForm();
     },
   });
 
