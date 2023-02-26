@@ -1,0 +1,33 @@
+[{
+    "name": "ABIA",
+    "state_id": 1,
+    "_id": "5f0eb6e06dda22674979bf22"
+  }, {
+    "name": "ADAMAWA",
+    "state_id": 2,
+    "_id": "5f0eb6e06dda22674979bf23"
+  }, {
+    "name": "AKWA IBOM",
+    "state_id": 3,
+    "_id": "5f0eb6e06dda22674979bf24"
+  },
+  {
+    "name": "ANAMBRA",
+    "state_id": 4,
+    "_id": "5f0eb6e16dda22674979bf25"
+  },
+  {
+    "name": "BAUCHI",
+    "state_id": 5,
+    "_id": "5f0eb6e16dda22674979bf26"
+  },
+  {
+    "name": "BAYELSA",
+    "state_id": 6,
+    "_id": "5f0eb6e16dda22674979bf27"
+  }, {
+    "name": "BENUE",
+    "state_id": 7,
+    "_id": "5f0eb6e16dda22674979bf28"
+  }
+]

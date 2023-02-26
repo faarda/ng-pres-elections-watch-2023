@@ -1,0 +1,149 @@
+[{
+  "name": "ABIA",
+  "state_id": 1,
+  "_id": "5f0eb6e06dda22674979bf22"
+}, {
+  "name": "ADAMAWA",
+  "state_id": 2,
+  "_id": "5f0eb6e06dda22674979bf23"
+}, {
+  "name": "AKWA IBOM",
+  "state_id": 3,
+  "_id": "5f0eb6e06dda22674979bf24"
+}, {
+  "name": "ANAMBRA",
+  "state_id": 4,
+  "_id": "5f0eb6e16dda22674979bf25"
+}, {
+  "name": "BAUCHI",
+  "state_id": 5,
+  "_id": "5f0eb6e16dda22674979bf26"
+}, {
+  "name": "BAYELSA",
+  "state_id": 6,
+  "_id": "5f0eb6e16dda22674979bf27"
+}, {
+  "name": "BENUE",
+  "state_id": 7,
+  "_id": "5f0eb6e16dda22674979bf28"
+}, {
+  "name": "BORNO",
+  "state_id": 8,
+  "_id": "5f0eb6e16dda22674979bf29"
+}, {
+  "name": "CROSS RIVER",
+  "state_id": 9,
+  "_id": "5f0eb6e16dda22674979bf2a"
+}, {
+  "name": "DELTA",
+  "state_id": 10,
+  "_id": "5f0eb6e16dda22674979bf2b"
+}, {
+  "name": "EBONYI",
+  "state_id": 11,
+  "_id": "5f0eb6e16dda22674979bf2c"
+}, {
+  "name": "EDO",
+  "state_id": 12,
+  "_id": "5f0eb6e16dda22674979bf2d"
+}, {
+  "name": "EKITI",
+  "state_id": 13,
+  "_id": "5f0eb6e16dda22674979bf2e"
+}, {
+  "name": "ENUGU",
+  "state_id": 14,
+  "_id": "5f0eb6e16dda22674979bf2f"
+}, {
+  "name": "FCT",
+  "state_id": 15,
+  "_id": "5f0eb6e16dda22674979bf30"
+}, {
+  "name": "GOMBE",
+  "state_id": 16,
+  "_id": "5f0eb6e16dda22674979bf31"
+}, {
+  "name": "IMO",
+  "state_id": 17,
+  "_id": "5f0eb6e16dda22674979bf32"
+}, {
+  "name": "JIGAWA",
+  "state_id": 18,
+  "_id": "5f0eb6e16dda22674979bf33"
+}, {
+  "name": "KADUNA",
+  "state_id": 19,
+  "_id": "5f0eb6e16dda22674979bf34"
+}, {
+  "name": "KANO",
+  "state_id": 20,
+  "_id": "5f0eb6e16dda22674979bf35"
+}, {
+  "name": "KATSINA",
+  "state_id": 21,
+  "_id": "5f0eb6e16dda22674979bf36"
+}, {
+  "name": "KEBBI",
+  "state_id": 22,
+  "_id": "5f0eb6e16dda22674979bf37"
+}, {
+  "name": "ABIA",
+  "state_id": 1,
+  "_id": "5f0eb6e06dda22674979bf22"
+}, {
+  "name": "KWARA",
+  "state_id": 24,
+  "_id": "5f0eb6e16dda22674979bf39"
+}, {
+  "name": "LAGOS",
+  "state_id": 25,
+  "_id": "5f0eb6e16dda22674979bf3a"
+}, {
+  "name": "NASARAWA",
+  "state_id": 26,
+  "_id": "5f0eb6e16dda22674979bf3b"
+}, {
+  "name": "NIGER",
+  "state_id": 27,
+  "_id": "5f0eb6e16dda22674979bf3c"
+}, {
+  "name": "OGUN",
+  "state_id": 28,
+  "_id": "5f0eb6e16dda22674979bf3d"
+}, {
+  "name": "ONDO",
+  "state_id": 29,
+  "_id": "5f0eb6e16dda22674979bf3e"
+}, {
+  "name": "OYO",
+  "state_id": 31,
+  "_id": "5f0eb6e16dda22674979bf40"
+}, {
+  "name": "OYO",
+  "state_id": 31,
+  "_id": "5f0eb6e16dda22674979bf40"
+}, {
+  "name": "PLATEAU",
+  "state_id": 32,
+  "_id": "5f0eb6e16dda22674979bf41"
+}, {
+  "name": "RIVERS",
+  "state_id": 33,
+  "_id": "5f0eb6e16dda22674979bf42"
+}, {
+  "name": "SOKOTO",
+  "state_id": 34,
+  "_id": "5f0eb6e26dda22674979bf43"
+}, {
+  "name": "TARABA",
+  "state_id": 35,
+  "_id": "5f0eb6e26dda22674979bf44"
+}, {
+  "name": "YOBE",
+  "state_id": 36,
+  "_id": "5f0eb6e26dda22674979bf45"
+}, {
+  "name": "ZAMFARA",
+  "state_id": 37,
+  "_id": "5f0eb6e26dda22674979bf46"
+}]
