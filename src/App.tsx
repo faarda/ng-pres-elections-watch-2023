@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import db from "./assets/firebase";
 import AppHeader from "./components/header";
 import UploadModal from "./components/upload";
-import logo from "./logo.svg";
 import { collection, getCount } from "firebase/firestore/lite";
 
 const App = () => {

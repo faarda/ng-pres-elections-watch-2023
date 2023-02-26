@@ -7,12 +7,6 @@ import states from "./assets/json/states.json";
 import UploadModal from "./components/upload";
 // import lgas from "./assets/json/lgas.json";
 
-interface SearchPageProps {
-  state: string;
-  ward: string;
-  lga: string;
-}
-
 interface Data {
   ward_code: string;
   images: string[];
@@ -42,7 +36,7 @@ const SearchPage = () => {
 
   useEffect(() => {
     getResults();
-  }, []);
+  });
 
   const getResults = async () => {
     const q = query(collection(db, "wards"), where("ward_code", "==", `${state}-${lga}-${ward}`));
@@ -70,10 +64,10 @@ const SearchPage = () => {
         )}
         {results.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-7 sm:mt-10">
-            {results.map((r) =>
-              r.images.map((img) => (
-                <figure className="w-full bg-gray-100 rounded-lg p-3">
-                  <img src={img} className="w-full rounded-md" />
+            {results.map((r, _) =>
+              r.images.map((img, index) => (
+                <figure className="w-full bg-gray-100 rounded-lg p-3" key={`${_}${index}`}>
+                  <img src={img} className="w-full rounded-md" alt={`Ward ${ward} election result`} />
                 </figure>
               ))
             )}

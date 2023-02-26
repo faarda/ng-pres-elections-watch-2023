@@ -1,10 +1,8 @@
 import { useFormik } from "formik";
-import React, { useCallback, useMemo, useRef, useState } from "react";
+import React, { useMemo, useState } from "react";
 import states from "../assets/json/states.json";
 import lgas from "../assets/json/lgas.json";
 import wards from "../assets/json/wards.json";
-import router from "../router";
-import { useNavigate } from "react-router-dom";
 import Modal from "./modal";
 import db from "../assets/firebase";
 import { addDoc, collection } from "firebase/firestore/lite";
@@ -15,7 +13,6 @@ interface Props {
 }
 
 const UploadModal: React.FC<Props> = ({ show, toggle }) => {
-  const navigate = useNavigate();
   const [images, setImages] = useState<string[]>([]);
   const form = useFormik({
     initialValues: {
@@ -28,7 +25,7 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
 
       try {
         const wardsCollection = collection(db, "wards");
-        const docRef = await addDoc(wardsCollection, {
+        await addDoc(wardsCollection, {
           ward_code: `${state}-${lga}-${ward}`,
           images,
         });
@@ -110,8 +107,10 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
           }}
         >
           <option value="">Please select a state</option>
-          {statesOptions.map((s) => (
-            <option value={s.value}>{s.text}</option>
+          {statesOptions.map((s, index) => (
+            <option value={s.value} key={index}>
+              {s.text}
+            </option>
           ))}
         </select>
 
@@ -126,8 +125,10 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
             }}
           >
             <option value="">Select an LGA</option>
-            {lgaOptions.map((s) => (
-              <option value={s.value}>{s.text}</option>
+            {lgaOptions.map((s, index) => (
+              <option value={s.value} key={index}>
+                {s.text}
+              </option>
             ))}
           </select>
         )}
@@ -142,8 +143,10 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
             }}
           >
             <option value="">Select a ward</option>
-            {wardOptions.map((s) => (
-              <option value={s.value}>{s.text}</option>
+            {wardOptions.map((s, index) => (
+              <option value={s.value} key={index}>
+                {s.text}
+              </option>
             ))}
           </select>
         )}

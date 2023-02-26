@@ -1,5 +1,3 @@
-import { useEffect, useMemo, useState } from "react";
-
 interface Props {
   show: boolean;
   toggle: (state: boolean) => void;

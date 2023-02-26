@@ -1,9 +1,8 @@
 import { useFormik } from "formik";
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useMemo } from "react";
 import states from "../assets/json/states.json";
 import lgas from "../assets/json/lgas.json";
 import wards from "../assets/json/wards.json";
-import router from "../router";
 import { useNavigate } from "react-router-dom";
 
 const Search = () => {
@@ -60,8 +59,10 @@ const Search = () => {
         }}
       >
         <option value="">Please select a state</option>
-        {statesOptions.map((s) => (
-          <option value={s.value}>{s.text}</option>
+        {statesOptions.map((s, index) => (
+          <option value={s.value} key={index}>
+            {s.text}
+          </option>
         ))}
       </select>
 
@@ -76,8 +77,10 @@ const Search = () => {
           }}
         >
           <option value="">Select an LGA</option>
-          {lgaOptions.map((s) => (
-            <option value={s.value}>{s.text}</option>
+          {lgaOptions.map((s, index) => (
+            <option value={s.value} key={index}>
+              {s.text}
+            </option>
           ))}
         </select>
       )}
@@ -92,8 +95,10 @@ const Search = () => {
           }}
         >
           <option value="">Select a ward</option>
-          {wardOptions.map((s) => (
-            <option value={s.value}>{s.text}</option>
+          {wardOptions.map((s, index) => (
+            <option value={s.value} key={index}>
+              {s.text}
+            </option>
           ))}
         </select>
       )}
