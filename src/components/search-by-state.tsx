@@ -1,12 +1,7 @@
-import { useFormik } from "formik";
-import React, { useMemo, useState } from "react";
+import React from "react";
 import states from "../assets/json/states.json";
-import lgas from "../assets/json/lgas.json";
-import wards from "../assets/json/wards.json";
 import Modal from "./modal";
-import db from "../assets/firebase";
-import { addDoc, collection } from "firebase/firestore/lite";
-import { useNavigate, useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
   show: boolean;
