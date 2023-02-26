@@ -15,7 +15,6 @@ const App = () => {
   const countWards = async () => {
     const coll = collection(db, "wards");
     const snapshot = await getCount(coll);
-    console.log("count: ", snapshot.data().count);
 
     return setDataCount(snapshot.data().count);
   };
