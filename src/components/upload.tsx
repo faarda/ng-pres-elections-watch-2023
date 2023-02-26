@@ -28,6 +28,9 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
         await addDoc(wardsCollection, {
           ward_code: `${state}-${lga}-${ward}`,
           images,
+          state,
+          ward,
+          lga,
         });
 
         alert(`Ward ${ward} Successfully uploaded`);

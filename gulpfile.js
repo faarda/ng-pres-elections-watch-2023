@@ -37,7 +37,7 @@ async function defaultTask(cb) {
     lgas = [],
     wards = [];
 
-  results.forEach((r) => {
+  results.forEach((r, index) => {
     if (r && r.data) {
       const data = r.data;
       const { name, state_id, _id } = data[0].state;

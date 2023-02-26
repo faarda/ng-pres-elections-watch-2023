@@ -42,9 +42,12 @@ const SearchPage = () => {
     const q = query(collection(db, "wards"), where("ward_code", "==", `${state}-${lga}-${ward}`));
 
     const querySnapshot = await getDocs(q);
+    const results: Data[] = [];
     querySnapshot.forEach((doc) => {
-      setResults((r) => [...r, doc.data() as Data]);
+      results.push(doc.data() as Data);
     });
+
+    setResults(results);
   };
 
   return (

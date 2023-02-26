@@ -87,9 +87,9 @@
   "state_id": 22,
   "_id": "5f0eb6e16dda22674979bf37"
 }, {
-  "name": "ABIA",
-  "state_id": 1,
-  "_id": "5f0eb6e06dda22674979bf22"
+  "name": "KOGI",
+  "state_id": 23,
+  "_id": "5f0eb6e16dda22674979bf38"
 }, {
   "name": "KWARA",
   "state_id": 24,
@@ -115,9 +115,9 @@
   "state_id": 29,
   "_id": "5f0eb6e16dda22674979bf3e"
 }, {
-  "name": "OYO",
-  "state_id": 31,
-  "_id": "5f0eb6e16dda22674979bf40"
+  "name": "OSUN",
+  "state_id": 30,
+  "_id": "5f0eb6e16dda22674979bf3f"
 }, {
   "name": "OYO",
   "state_id": 31,

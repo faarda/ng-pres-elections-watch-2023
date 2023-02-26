@@ -2807,107 +2807,131 @@
   "state_id": 22,
   "state": "5f0eb6e16dda22674979bf37"
 }, {
-  "name": "ABA NORTH",
-  "lga_id": 3103,
-  "_id": "5f0f397a4d89fc3a883de0c0",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "BASSA",
+  "lga_id": 3574,
+  "_id": "5f0f399b4d89fc3a883de297",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "BENDE",
-  "lga_id": 3106,
-  "_id": "5f0f397b4d89fc3a883de0c3",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "ADAVI",
+  "lga_id": 3571,
+  "_id": "5f0f399b4d89fc3a883de294",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "AROCHUKWU",
-  "lga_id": 3105,
-  "_id": "5f0f397b4d89fc3a883de0c2",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "AJAOKUTA",
+  "lga_id": 3572,
+  "_id": "5f0f399b4d89fc3a883de295",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "ABA SOUTH",
-  "lga_id": 3104,
-  "_id": "5f0f397b4d89fc3a883de0c1",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "ANKPA",
+  "lga_id": 3573,
+  "_id": "5f0f399b4d89fc3a883de296",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "IKWUANO",
-  "lga_id": 3107,
-  "_id": "5f0f397b4d89fc3a883de0c4",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "DEKINA",
+  "lga_id": 3575,
+  "_id": "5f0f399b4d89fc3a883de298",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "OHAFIA",
-  "lga_id": 3112,
-  "_id": "5f0f397b4d89fc3a883de0c9",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "IDAH",
+  "lga_id": 3577,
+  "_id": "5f0f399b4d89fc3a883de29a",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "ISUIKWUATO",
-  "lga_id": 3110,
-  "_id": "5f0f397b4d89fc3a883de0c7",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "IBAJI",
+  "lga_id": 3576,
+  "_id": "5f0f399b4d89fc3a883de299",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "ISIALA NGWA NORTH",
-  "lga_id": 3108,
-  "_id": "5f0f397b4d89fc3a883de0c5",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "LOKOJA",
+  "lga_id": 3582,
+  "_id": "5f0f399b4d89fc3a883de29f",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "ISIALA NGWA SOUTH",
-  "lga_id": 3109,
-  "_id": "5f0f397b4d89fc3a883de0c6",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "IGALAMELA/ODOLU",
+  "lga_id": 3578,
+  "_id": "5f0f399b4d89fc3a883de29b",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "OSISIOMA",
-  "lga_id": 3113,
-  "_id": "5f0f397b4d89fc3a883de0ca",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "IJUMU",
+  "lga_id": 3579,
+  "_id": "5f0f399b4d89fc3a883de29c",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "UKWA EAST",
-  "lga_id": 3115,
-  "_id": "5f0f397b4d89fc3a883de0cc",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "KABBA/BUNU",
+  "lga_id": 3580,
+  "_id": "5f0f399b4d89fc3a883de29d",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "UGWUNAGBO",
-  "lga_id": 3114,
-  "_id": "5f0f397b4d89fc3a883de0cb",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "KOGI . K. K.",
+  "lga_id": 3581,
+  "_id": "5f0f399b4d89fc3a883de29e",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "OBINGWA",
-  "lga_id": 3111,
-  "_id": "5f0f397b4d89fc3a883de0c8",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "OKENE",
+  "lga_id": 3587,
+  "_id": "5f0f399c4d89fc3a883de2a4",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "UMUAHIA NORTH",
-  "lga_id": 3117,
-  "_id": "5f0f397b4d89fc3a883de0ce",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "MOPA MORO",
+  "lga_id": 3583,
+  "_id": "5f0f399c4d89fc3a883de2a0",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "UKWA  WEST",
-  "lga_id": 3116,
-  "_id": "5f0f397b4d89fc3a883de0cd",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "OKEHI",
+  "lga_id": 3586,
+  "_id": "5f0f399c4d89fc3a883de2a3",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "UMUAHIA  SOUTH",
-  "lga_id": 3118,
-  "_id": "5f0f397c4d89fc3a883de0cf",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "OFU",
+  "lga_id": 3584,
+  "_id": "5f0f399c4d89fc3a883de2a1",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
-  "name": "UMU - NNEOCHI",
-  "lga_id": 3119,
-  "_id": "5f0f397c4d89fc3a883de0d0",
-  "state_id": 1,
-  "state": "5f0eb6e06dda22674979bf22"
+  "name": "OGORI MANGOGO",
+  "lga_id": 3585,
+  "_id": "5f0f399c4d89fc3a883de2a2",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
+}, {
+  "name": "OMALA",
+  "lga_id": 3589,
+  "_id": "5f0f399c4d89fc3a883de2a6",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
+}, {
+  "name": "YAGBA EAST",
+  "lga_id": 3590,
+  "_id": "5f0f399c4d89fc3a883de2a7",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
+}, {
+  "name": "OLAMABORO",
+  "lga_id": 3588,
+  "_id": "5f0f399c4d89fc3a883de2a5",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
+}, {
+  "name": "YAGBA WEST",
+  "lga_id": 3591,
+  "_id": "5f0f399c4d89fc3a883de2a8",
+  "state_id": 23,
+  "state": "5f0eb6e16dda22674979bf38"
 }, {
   "name": "BARUTEN",
   "lga_id": 3593,
@@ -3581,203 +3605,185 @@
   "state_id": 29,
   "state": "5f0eb6e16dda22674979bf3e"
 }, {
-  "name": "AFIJIO",
-  "lga_id": 3734,
-  "_id": "5f0f39a54d89fc3a883de337",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ATAKUMOSA EAST",
+  "lga_id": 3704,
+  "_id": "5f0f39a34d89fc3a883de319",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "ATIBA",
-  "lga_id": 3736,
-  "_id": "5f0f39a54d89fc3a883de339",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "BOLUWADURO",
+  "lga_id": 3708,
+  "_id": "5f0f39a34d89fc3a883de31d",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "ATISBO",
-  "lga_id": 3737,
-  "_id": "5f0f39a54d89fc3a883de33a",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ATAKUMOSA WEST",
+  "lga_id": 3705,
+  "_id": "5f0f39a34d89fc3a883de31a",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBADAN NORTH WEST",
-  "lga_id": 3741,
-  "_id": "5f0f39a54d89fc3a883de33e",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "AYEDAADE",
+  "lga_id": 3706,
+  "_id": "5f0f39a34d89fc3a883de31b",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "EGBEDA",
-  "lga_id": 3738,
-  "_id": "5f0f39a54d89fc3a883de33b",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "BORIPE",
+  "lga_id": 3709,
+  "_id": "5f0f39a34d89fc3a883de31e",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBADAN NORTH",
-  "lga_id": 3739,
-  "_id": "5f0f39a54d89fc3a883de33c",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "EDE NORTH",
+  "lga_id": 3710,
+  "_id": "5f0f39a34d89fc3a883de31f",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "AKINYELE",
-  "lga_id": 3735,
-  "_id": "5f0f39a54d89fc3a883de338",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IFE CENTRAL",
+  "lga_id": 3714,
+  "_id": "5f0f39a44d89fc3a883de323",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBARAPA NORTH",
-  "lga_id": 3746,
-  "_id": "5f0f39a64d89fc3a883de343",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "EGBEDORE",
+  "lga_id": 3712,
+  "_id": "5f0f39a44d89fc3a883de321",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBADAN SOUTH WEST",
-  "lga_id": 3743,
-  "_id": "5f0f39a54d89fc3a883de340",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "EDE SOUTH",
+  "lga_id": 3711,
+  "_id": "5f0f39a34d89fc3a883de320",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBADAN NORTH EAST",
-  "lga_id": 3740,
-  "_id": "5f0f39a54d89fc3a883de33d",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IFEDAYO",
+  "lga_id": 3715,
+  "_id": "5f0f39a44d89fc3a883de324",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBARAPA CENTRAL",
-  "lga_id": 3744,
-  "_id": "5f0f39a64d89fc3a883de341",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IFE EAST",
+  "lga_id": 3716,
+  "_id": "5f0f39a44d89fc3a883de325",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBADAN SOUTH-EAST",
-  "lga_id": 3742,
-  "_id": "5f0f39a54d89fc3a883de33f",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IFELODUN",
+  "lga_id": 3717,
+  "_id": "5f0f39a44d89fc3a883de326",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IWAJOWA",
-  "lga_id": 3751,
-  "_id": "5f0f39a64d89fc3a883de348",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ILA",
+  "lga_id": 3720,
+  "_id": "5f0f39a44d89fc3a883de329",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IREPO",
-  "lga_id": 3748,
-  "_id": "5f0f39a64d89fc3a883de345",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IFE SOUTH",
+  "lga_id": 3719,
+  "_id": "5f0f39a44d89fc3a883de328",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "ISEYIN",
-  "lga_id": 3749,
-  "_id": "5f0f39a64d89fc3a883de346",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ILESA EAST",
+  "lga_id": 3721,
+  "_id": "5f0f39a44d89fc3a883de32a",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IBARAPA EAST",
-  "lga_id": 3745,
-  "_id": "5f0f39a64d89fc3a883de342",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "AYEDIRE",
+  "lga_id": 3707,
+  "_id": "5f0f39a34d89fc3a883de31c",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "OGO-OLUWA",
-  "lga_id": 3756,
-  "_id": "5f0f39a64d89fc3a883de34d",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ISOKAN",
+  "lga_id": 3725,
+  "_id": "5f0f39a44d89fc3a883de32e",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "IDO",
-  "lga_id": 3747,
-  "_id": "5f0f39a64d89fc3a883de344",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IREWOLE",
+  "lga_id": 3724,
+  "_id": "5f0f39a44d89fc3a883de32d",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "LAGELU",
-  "lga_id": 3753,
-  "_id": "5f0f39a64d89fc3a883de34a",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "EJIGBO",
+  "lga_id": 3713,
+  "_id": "5f0f39a44d89fc3a883de322",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "ITESIWAJU",
-  "lga_id": 3750,
-  "_id": "5f0f39a64d89fc3a883de347",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IWO",
+  "lga_id": 3726,
+  "_id": "5f0f39a44d89fc3a883de32f",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "OGBOMOSO NORTH",
-  "lga_id": 3754,
-  "_id": "5f0f39a64d89fc3a883de34b",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ILESA WEST",
+  "lga_id": 3722,
+  "_id": "5f0f39a44d89fc3a883de32b",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "OLUYOLE",
-  "lga_id": 3758,
-  "_id": "5f0f39a64d89fc3a883de34f",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "OBOKUN",
+  "lga_id": 3727,
+  "_id": "5f0f39a44d89fc3a883de330",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "KAJOLA",
-  "lga_id": 3752,
-  "_id": "5f0f39a64d89fc3a883de349",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IFE NORTH",
+  "lga_id": 3718,
+  "_id": "5f0f39a44d89fc3a883de327",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "ORI IRE",
-  "lga_id": 3761,
-  "_id": "5f0f39a74d89fc3a883de352",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "OLORUNDA",
+  "lga_id": 3730,
+  "_id": "5f0f39a54d89fc3a883de333",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "ONA-ARA",
-  "lga_id": 3759,
-  "_id": "5f0f39a64d89fc3a883de350",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "OLA-OLUWA",
+  "lga_id": 3729,
+  "_id": "5f0f39a54d89fc3a883de332",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "OGBOMOSO SOUTH",
-  "lga_id": 3755,
-  "_id": "5f0f39a64d89fc3a883de34c",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "OROLU",
+  "lga_id": 3732,
+  "_id": "5f0f39a54d89fc3a883de335",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "OLORUNSOGO",
-  "lga_id": 3757,
-  "_id": "5f0f39a64d89fc3a883de34e",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ORIADE",
+  "lga_id": 3731,
+  "_id": "5f0f39a54d89fc3a883de334",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "SURULERE",
-  "lga_id": 3766,
-  "_id": "5f0f39a74d89fc3a883de357",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "IREPODUN",
+  "lga_id": 3723,
+  "_id": "5f0f39a44d89fc3a883de32c",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "OYO WEST",
-  "lga_id": 3763,
-  "_id": "5f0f39a74d89fc3a883de354",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "ODO-OTIN",
+  "lga_id": 3728,
+  "_id": "5f0f39a54d89fc3a883de331",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
-  "name": "SAKI EAST",
-  "lga_id": 3764,
-  "_id": "5f0f39a74d89fc3a883de355",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
-}, {
-  "name": "OORELOPE",
-  "lga_id": 3760,
-  "_id": "5f0f39a74d89fc3a883de351",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
-}, {
-  "name": "OYO EAST",
-  "lga_id": 3762,
-  "_id": "5f0f39a74d89fc3a883de353",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
-}, {
-  "name": "SAKI WEST",
-  "lga_id": 3765,
-  "_id": "5f0f39a74d89fc3a883de356",
-  "state_id": 31,
-  "state": "5f0eb6e16dda22674979bf40"
+  "name": "OSOGBO",
+  "lga_id": 3733,
+  "_id": "5f0f39a54d89fc3a883de336",
+  "state_id": 30,
+  "state": "5f0eb6e16dda22674979bf3f"
 }, {
   "name": "AFIJIO",
   "lga_id": 3734,
