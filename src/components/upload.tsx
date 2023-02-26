@@ -33,6 +33,7 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
         alert(`Ward ${ward} Successfully uploaded`);
         toggle(false);
         form.resetForm();
+        setImages([]);
       } catch (err) {
         alert(`Something went wrong please try again`);
       }
