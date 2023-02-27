@@ -67,12 +67,13 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
   };
 
   const submitEnabled = state && ward && lga && images.length > 0;
+  const imageUploadEnabled = state && ward && lga;
 
   var myWidget = (window as any)?.cloudinary.createUploadWidget(
     {
       cloudName: cloudName,
       uploadPreset: uploadPreset,
-      folder: `${state}/${lga}/${ward}`,
+      folder: `elections-images/${state}/${lga}/${ward}`,
       // cropping: true, //add a cropping step
       // showAdvancedOptions: true,  //add advanced options (public_id and tag)
       // sources: [ "local", "url"], // restrict the upload sources to URL and local files
@@ -152,7 +153,8 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
           </select>
         )}
         <button
-          className="bg-gray-700 text-white font-semibold w-full py-3.5 mt-4 rounded-md"
+          className="bg-gray-700 disabled:bg-gray-200 text-white font-semibold w-full py-3.5 mt-4 rounded-md"
+          disabled={!imageUploadEnabled}
           onClick={() => myWidget.open()}
           type="button"
         >
