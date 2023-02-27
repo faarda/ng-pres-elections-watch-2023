@@ -72,6 +72,7 @@ const UploadModal: React.FC<Props> = ({ show, toggle }) => {
     {
       cloudName: cloudName,
       uploadPreset: uploadPreset,
+      folder: `${state}/${lga}/${ward}`,
       // cropping: true, //add a cropping step
       // showAdvancedOptions: true,  //add advanced options (public_id and tag)
       // sources: [ "local", "url"], // restrict the upload sources to URL and local files
